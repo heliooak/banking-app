@@ -38,7 +38,7 @@ class CadastroUsuario extends React.Component{
             msgs.push("Digite a senha 2x.")
         }else if(this.state.senha !== this.state.senhaRepeticao){
             msgs.push("As senhas não batem.")
-        }
+        } 
 
         return msgs;
 
